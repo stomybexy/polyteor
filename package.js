@@ -17,7 +17,8 @@ Package.onUse(function(api) {
   
   api.imply('ecmascript');
   api.imply('jonatan:smart-pub@0.0.2');
-  api.imply('static-html');  
+  api.imply('static-html');
+  api.imply('differential:vulcanize@3.0.0')  
   
 
   api.addFiles('bower.json', 'client');
