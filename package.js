@@ -13,10 +13,10 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
  
-  api.use('jonatan:bower@0.0.1');  
+  api.use('jonatan:bower@0.0.2');  
   
   api.imply('ecmascript');
-  api.imply('jonatan:smart-pub@0.0.2');
+  api.imply('jonatan:smart-pub@0.0.1');
   api.imply('static-html');
   api.imply('differential:vulcanize@3.0.0') ;
   api.imply('dburles:mongo-collection-instances@0.3.5');
