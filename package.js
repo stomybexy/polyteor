@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jonatan:polyteor',
-  version: '0.0.3',
+  version: '0.0.4',
   // Brief, one-line summary of the package.
   summary: 'Polymer + meteor integration.',
   // URL to the Git repository containing the source code for this package.
@@ -18,7 +18,6 @@ Package.onUse(function(api) {
   api.imply('ecmascript');
   api.imply('jonatan:smart-pub@0.0.1');
   api.imply('static-html');
-  api.imply('differential:vulcanize@3.0.0') ;
   api.imply('dburles:mongo-collection-instances@0.3.5');
 
   api.addFiles('bower.json', 'client');
