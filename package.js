@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
 
-  api.versionsFrom('1.2.1');
+  api.versionsFrom('1.3.1');
 
   api.imply('ecmascript');
   api.imply('static-html');
