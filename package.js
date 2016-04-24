@@ -14,7 +14,7 @@ Package.onUse(function(api) {
 
   api.versionsFrom('1.3.1');
 
-  api.imply('ecmascript');
+  // api.imply('ecmascript');
   api.imply('static-html');
 
   api.use('jonatan:bower@0.0.3');
