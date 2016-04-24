@@ -33,4 +33,31 @@ It install [polyteor-element](https://github.com/stomybexy/polyteor-element) bow
 * Optionally you can add ```jonatan:bower``` or a similar package to manage your bower dependencies. Make sure to install bower dependencies in the folder specified in ```.bowerrc```
 if you use that recommended method.
 
+
+
+* Add ```client/copy.pt.json``` with file with the following content: 
+```js
+{
+  "copy": [
+    {
+      "src": "bower_components/webcomponentsjs/webcomponents-lite.min.js",
+      "dest": "bower_components/webcomponentsjs/webcomponents-lite.min.js"
+    }
+  ]
+}
+
+```
+Update ```src``` and ```dest``` according to your setup. For production build, set VULCANIZE environment variable.
+
+``` 
+  VULCANIZE="true" meteor build <dist folder>
+```
+or 
+```
+  set VULCANIZE="true"; meteor build <dist folder>
+```
+on Windows.
+
+See [jonatan:polyteor-compiler](https://atmospherejs.com/jonatan/polyteor-compiler) for more informations.
+
 More informations on [Polyteor website](https://polyteor.firebaseapp.com).
