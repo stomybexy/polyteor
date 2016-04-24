@@ -5,12 +5,12 @@ Polymer + Meteor integration.
 
 # What it contains
 
-This package contains a set of ```meteor package``` and bower dependencies. for developping your Meteor app client side with Polymer.
+This package contains a set of ```meteor packages``` and ```bower dependencies```. for developping your Meteor app client side with Polymer.
 
-It uses [jonatan:polyteor-compiler]() for Polymer build process integration, [jonatan:static-folder]() to avoid installing bower_components into ```public folder```,
-[static-html]() for to compile ```html``` files.
+It uses [jonatan:polyteor-compiler](https://atmospherejs.com/jonatan/polyteor-compiler) for Polymer build process integration, [jonatan:static-folder](https://atmospherejs.com/jonatan/static-folder) to avoid installing  into ```public folder```,
+[static-html](https://atmospherejs.com/meteor/static-html) to compile ```html``` files.
 
-It install [polyteor-element]() bower dependencies. It is recommended to keep bower_dependencies into ```.polyteor``` folder.
+It install [polyteor-element](https://github.com/stomybexy/polyteor-element) bower dependency. It is recommended to keep bower dependencies into ```.polyteor``` folder.
 
 ## Installation
 
