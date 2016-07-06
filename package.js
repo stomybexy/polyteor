@@ -18,7 +18,7 @@ Package.onUse(function(api) {
   api.imply('static-html');
 
   api.use('jonatan:bower@0.0.3');
-  api.imply('jonatan:static-folder@0.0.3');
+  api.imply('jonatan:static-folder@0.0.4');
   api.imply('jonatan:polyteor-compiler@0.9.0');
 
   api.imply('dburles:mongo-collection-instances@0.3.5');
